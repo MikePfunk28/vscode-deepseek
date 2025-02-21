@@ -7,19 +7,19 @@
 	"description": "Run DeepSeek models in your GitHub Copilot Chat",
 	"version": "0.0.5",
 	"galleryBanner": {
-        "color": "#ffffff",
-        "theme": "light"
-    },
+		"color": "#ffffff",
+		"theme": "light"
+	},
 	"author": {
 		"name": "Wassim Chegham",
 		"email": "github@wassim.dev"
 	},
 	"homepage": "https://github.com/manekinekko/vscode-deepseek/blob/main/README.md",
 	"bugs": {
-        "url": "https://github.com/manekinekko/vscode-deepseek/issues"
-    },
+		"url": "https://github.com/manekinekko/vscode-deepseek/issues"
+	},
 	"keywords": [
-        "deepseek",
+		"deepseek",
 		"copilot",
 		"chat",
 		"agent",
@@ -27,7 +27,7 @@
 		"ai",
 		"model",
 		"nlp"
-    ],
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/manekinekko/vscode-deepseek"
@@ -87,7 +87,8 @@
 		"@vscode/chat-extension-utils": "^0.0.0-alpha.5",
 		"@vscode/prompt-tsx": "^0.3.0-alpha.17",
 		"@vscode/vsce": "^3.2.2",
-		"ollama": "^0.5.12"
+		"ollama": "^0.5.12",
+		"wassimdev-vscode-deepseek": "file:"
 	},
 	"devDependencies": {
 		"@types/mocha": "^10.0.10",
